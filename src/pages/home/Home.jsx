@@ -5,10 +5,10 @@ import { Product } from "../../components/product/Product"
 
 export const Home = () => {
   return (
-    <>
+    <div>
       <Slider />
       <Order />
       <Product />
-    </>
+    <div/>
   )
 }
